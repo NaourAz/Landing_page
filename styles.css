@@ -43,10 +43,14 @@ header {
     align-items: center;
 }
 
+#nav-bar ul li {
+    list-style-type: none;
+}
+
 .nav-link {
     font-size: 18px;
     color: var(--hero-second-color);
-    list-style-type: none;
+    text-decoration: none;
 }
 
 /*************************************** HERO SECTION *************************************/
@@ -71,6 +75,7 @@ header {
 
 .main-text {
     font-size: 48px;
+    font-weight: bolder;
     color: var(--hero-main-color);
 }
 
@@ -95,4 +100,67 @@ header {
     color: gray;
     text-align: center;
     padding: 100px auto;
+}
+
+/*************************************** INFORMATION SECTION *************************************/
+
+#information {
+    background-color: var(--hero-main-color);
+}
+
+#information-wraper {
+    width: 60%;
+    height: 500px;
+    margin: 0 auto;
+}
+
+#information-wraper h2 {
+    font-size: 38px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: center;
+    margin: 50px 0;
+}
+
+.illustration-wraper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.infos-img {
+    width: 200px;
+    height: 200px;
+    border: 5px solid var(--btn-color);
+    border-radius: 10px;
+}
+
+.img-subtext {
+    width: 200px;
+    color: var(--dark-bg);
+    font-size: 18px;
+    text-align: center;
+}
+
+/*************************************** QUOTE SECTION *************************************/
+
+#quote {
+    background-color: var(--hero-second-color);
+}
+
+#quote-wraper {
+    width: 60%;
+    height: 600px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+#quote-wraper p {
+    width: 60%;
+    font-size: 36px;
+    font-weight: normal;
+    color:#1f2937;
+    margin: 0 auto;
+    vertical-align: middle;
 }
